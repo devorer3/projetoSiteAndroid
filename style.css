@@ -1,0 +1,110 @@
+header{
+    
+    background-image:linear-gradient(to bottom, #3bd47f,#1e6a40) ;
+    margin: -15px -15px 0px -15px;
+    padding: 10px;
+}
+header>h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #1e6a40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > p{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #1e6a40;
+}
+
+header > nav > a {
+    text-decoration: none;
+    padding: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px #1e6a40;
+    font-size: 17px
+
+    
+}
+main{
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+}
+body{
+    background-color: #84e1ad;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: Android;
+    color: #226240;
+    font-size: 30px;
+}
+
+h2{
+    font-family: Android;
+    color: #226240;
+    background-image: linear-gradient(to right #3bd480,#1e6a40fb );
+}
+p{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    text-indent: 40px;
+    padding: 0px 15px 0px 15px;
+}
+ 
+#FundoVerde{
+    background-image:linear-gradient(to left, #3bd4800a , #1e6a403f  ) ;
+}
+
+#imagemAndroid{
+    padding-left: 230px;
+}
+.videoAndroid{
+    height: 380px;
+    background-color: #1e6a40;
+    margin: -10px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    
+}
+#quadroDeAprendizado{
+    background-color: white;
+}
+#aprenderMais{
+    
+    background-color: #2fa866;
+    color: white;
+    margin: 20px 10px 10px 10px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+#quadroVerde{
+    width: 780px;
+    height: 450px;
+    background-color: #c5ebd6;
+    margin: -20px 10px 10px 10px;
+    border: 10px 10px  red;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 3px #a3c4b2 ;
+
+    
+    
+
+}
+.lista2{
+    text-decoration: underline;
+}
+
+
+
+
+@font-face {
+    font-family:'Android' ;
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
