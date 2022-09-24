@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 header{
     
     background-image:linear-gradient(to bottom, #3bd47f,#1e6a40) ;
@@ -8,7 +11,7 @@ header>h1{
     text-align: center;
     color: white;
     text-shadow: 2px 2px 2px #1e6a40;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', cursive;
 }
 header > p{
     text-align: center;
@@ -26,14 +29,15 @@ header > nav > a {
     
 }
 main{
-    width: 800px;
+    min-width: 400px;
+    max-width: 800px;
     padding: 10px;
     margin: auto;
     background-color: white;
 }
 body{
     background-color: #84e1ad;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 h1{
@@ -49,7 +53,7 @@ h2{
 }
 p{
     text-align: justify;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     text-indent: 40px;
     padding: 0px 15px 0px 15px;
 }
@@ -99,6 +103,11 @@ p{
     text-decoration: underline;
 }
 
+footer{
+    background-color: #2fa866;
+    text-align: center;
+    color: white;
+}
 
 
 
@@ -108,3 +117,4 @@ p{
     font-weight: normal;
     font-style: normal;
 }
+
